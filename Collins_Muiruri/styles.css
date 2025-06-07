@@ -1,0 +1,489 @@
+@import "tailwindcss";
+
+.body {
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color:  ghostwhite; /* Light Goldenrod Yellow from plan */
+    flex: 1;
+     
+}
+
+
+
+/* Header & Navigation */
+header {
+    background-color: #f8f8f8;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0;
+}
+
+.logo {
+    cursor: pointer;
+}
+nav ul li {
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0f0202;
+    font-weight: bold;
+}
+#hamburger-menu {
+    display: none; 
+    cursor: pointer;
+}
+.card1 {
+    background-color: antiquewhite;
+    border-radius: 0;
+    padding: 3em;
+    height: 400px; /* Adjust as needed */
+/* Adjust as needed */
+    width: 1200px;
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+    background-image: url('assets/rooms.jpg'); /* path to your image */
+  background-size: cover;  /* make sure it covers the whole card */
+  background-position: center;
+  text-align: center;
+  font-weight: bolder;
+}
+.p {
+    text-align: center;
+}
+
+
+.h1 {
+    color: white;
+    font-size: 30px;
+   
+    
+}
+.p {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px; 
+    opacity: 100%;  
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(53, 194, 230); /* Sienna - Brown from plan */
+    color: white;
+    text-decoration: san-saerif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.button1 {
+    margin-top: 8%;
+    margin-left: 2%;
+    padding: 10px 20px;
+    background-color: rgb(53, 194, 230); /* Sienna - Brown from plan */
+    color: white;
+    text-decoration: san-saerif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #8B4513; /* Darker Sienna */
+}
+
+/* Hero Section */
+#hero {
+    display: flex;
+     align-items:center;
+     justify-content: space-between;
+    padding: 2em;
+}
+ .text{
+    flex: 0;
+    margin-right: 2em;
+    font-size: 22px;
+    margin-left: 70px;
+    margin-bottom: 40px;
+
+} 
+.card2 {
+    display: flex;
+    height: 600px; 
+    width: 800px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(Assets/swimming-pool-area.jpg);
+    justify-content: flex-end;
+}
+
+#offerings {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 2em;
+}
+.offering {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5em;
+    width: 300px; /* Adjust as needed */
+    background-image: url(Assets/gym\ equipments.jpg);
+    background-size: cover;
+}
+
+#amenities{
+    margin-top: 20px;
+    padding-top: 10px;
+    /* padding-bottom: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+.card3{
+     padding: 5em;
+     height: 200px;
+     width: 300px;
+     background-color: rgb(222, 184, 135);
+     font-size: larger;
+     border-radius: 25px;
+}
+.card4{
+     background-image: url(Assets/french_fries.png);
+     background-position: 0px;
+     padding: 5em;
+    height: 200px;
+     width: 300px;
+     background-color:  antiquewhite;
+    border-radius: 25px;
+    font-size: larger;
+    text-align: start;
+    
+}
+
+#card5{
+    margin-top: 70px;
+    background-image: url(Assets/beach.jpg);
+    border-radius: none;
+    background-size: cover;
+    font-size: 40px;
+   background-position: center;
+    padding-left: 50px;
+   text-align: center;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    width: 1150px;
+    padding-top: 100px;
+    color: black;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    padding: 2em;
+    margin-top: 50px;
+   background-color: ghostwhite;
+   display: flex;
+   
+}
+
+.testimonial {
+    display: flex; 
+    height: 500px;   
+    margin-bottom: 1em;
+    padding-top: 30px;
+    justify-content: right;
+}
+ .testimony{
+    justify-content: right;
+    border-radius: 8px;
+   /* padding-top: 0px; */
+    width: 100px;
+   font-size: 23px;
+    
+} 
+
+.testimonial {
+    margin-left: 120px;
+    background-color:  antiquewhite;
+    text-align: center;
+    justify-content: right;
+    border-radius: 0px;
+    font-size: larger;
+    padding-top: 200px;
+    width: 700px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    float: right;
+    height: 350px;
+}
+
+#partner {
+    text-align: start;
+    margin-top: 1px;
+    justify-content: left;
+    padding: 2px;
+  width: 100px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.partners1 {
+    display: flex;
+    margin-top: 5em;
+    padding-left: 40px;
+    height: 80px;
+    gap: 2em;
+    width: 1px;
+}
+
+/* Resources Section */
+#resources {
+    text-align: center;
+    padding: 2em;
+    background-color: #F5F5DC; 
+    margin-top: 0px;
+    font-size: 17px;
+}
+
+.resource-cards {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.resource-card {
+    
+    border-radius: 8px;
+    padding: 50px;
+    width: 300px; /* Adjust as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url(Assets/dumbells.jpg);
+   background-size: cover;
+   font-size: larger;
+   text-align: center;
+   
+}
+.resource-card2 {
+    padding: 50px;
+    border-radius: 8px;
+    width: 300px; /* Adjust as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url(Assets/spa.jpg);
+     background-size: cover;
+    font-size: larger;
+   text-align: center;
+}
+.resource-card3 {
+    padding: 50px;
+    border-radius: 8px;
+    width: 300px; /* Adjust as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url(Assets/event\ picture.jpg);
+     background-size: cover;
+      font-size: larger;
+   text-align: center;
+}
+
+#card6 {
+    margin-top: 70px;
+    border-radius: 40px;
+    font-size: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 500px;
+    width: 1200px;
+    padding-top: 50px;
+    text-align: center;
+    background-image: url(Assets/boat.jpg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* About Us Section */
+#about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 2em;
+}
+
+
+
+/* Your Path (Our Offerings) Section */
+#your-path {
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+
+/* Community Section */
+#community {
+    text-align: center;
+    padding: 2em;
+    margin-top: 250px;
+}
+#faq {
+  padding: 5em;
+  background-color: #f8f8f8;
+  margin-top: 70px;
+height: 350px;
+}
+.faq {
+  max-width: 600px;
+  max-height: 500px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.faq-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.question-text {
+  flex: 1;
+}
+
+.icon {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  padding-left: 10px;
+  transition: max-height 0.3s ease;
+  color: #333;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + .faq-label .icon::before {
+  content: "+";
+}
+
+input[type="checkbox"]:checked + .faq-label .icon::before {
+  content: "−";
+}
+
+input[type="checkbox"]:checked ~ .faq-answer {
+  max-height: 200px;
+  margin-top: 10px;
+}
+
+#questions{
+
+    display: flex;
+     gap: 2em; 
+     height: 400px;
+}
+
+.qls{
+padding: 50px;
+
+}
+.qls1{
+  margin-bottom: 40px;
+    
+}
+
+.card6 {
+    border-radius: 8px;
+    padding: 1.5em;
+    width: 500px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    background-image: url(Assets/thinking.jpg);
+    height: 400px;
+    background-position: center;  
+}
+
+
+#contact-card {
+   font-size: larger;
+    gap: 2em;
+    background: lightgray;
+    padding: 100px;
+    border-radius: 40px;
+    max-width: 800px;
+    margin: auto; 
+    height: 300px;
+    text-align: left;
+    padding-left: 11px;
+    padding-top: 5px;
+    display: flex;
+}
+.response-time {
+    padding-top: 70px;
+}
+
+.social-icons {
+    height: 50px;
+    width: 10px;
+    display: flex;
+    gap: 1em;
+}
+.contact-form {
+    
+    margin-left: 500px;
+    text-align: left;
+    margin-bottom: 800em;
+    background-color: tomato;
+    gap: 2em;
+    height: 200px;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 25px;
+    display: flex;
+    text-align: center;
+
+}
+/* .footer-card {
+    display: flex;
+    gap: 2em;
+    margin-top: 20px;
+    background-color: black;
+} */
+footer nav ul {
+    justify-content: center;
+}
+
+footer nav a {
+    color: white;
+}
