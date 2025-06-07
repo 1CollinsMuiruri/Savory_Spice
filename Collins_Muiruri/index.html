@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Savory Spices Food Hotel</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="mediaqueries.css">
-    <link href="output.css" rel="stylesheet">
+    <link rel="stylesheet" href="mediaqueries.css">   
 </head>
 
 <body class="body">
@@ -23,17 +22,17 @@
         </nav>
     </header>
     <nav id="hamburger-menu">
-        <div class="hamburger-icon">
+        <div class="hamburger-icon" onclick="toggleMenu()">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
         </div>
         <ul class="menu-items">
-            <li><a href="About">About</a></li>
-            <li><a href="Rooms">Rooms</a></li>
+            <li><a href="About" onclick="toggleMenu()">About</a></li>
+            <li><a href="Rooms" onclick="toggleMenu()">Rooms</a></li>
             <div class="logo">Savory Spices </div>
-            <li><a href="Dining">Dining</a></li>
-            <li><a href="Contact">Contact</a></li>
+            <li><a href="Dining" onclick="toggleMenu()">Dining</a></li>
+            <li><a href="Contact" onclick="toggleMenu()">Contact</a></li>
         </ul>
 
     </nav>
@@ -73,9 +72,7 @@
                 <h3>Fine Dining</h3> 
                  <p>World-class cuisine crafted by renowned chefs.</p> 
                  <a href="class" class="button">View Menu</a> 
-             
-           
-        
+                    
     </section>
 
 <section id="amenities">
@@ -259,18 +256,7 @@
             <img src="Assets/Twitter.webp" alt="Twitter">
             </div>
             <p class="response-time">We typically respond within 12 hours.</p>
-      <!-- </div>
-      <form onsubmit="sendMessage(); return false;">
-        <div class="contact-form">
-          <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Email">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" placeholder="Message"></textarea>
-
-                        <button class="button" >Send Message</button>
-
-        </div>
-        </form> -->
+            
     </section >
 
     <footer id="footer">

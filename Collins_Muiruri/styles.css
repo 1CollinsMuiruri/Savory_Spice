@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* @import "tailwindcss"; */
 
 .body {
     font-family: sans-serif;
@@ -341,7 +341,7 @@ nav a {
 }
 #faq {
   padding: 5em;
-  background-color: #f8f8f8;
+  background-color: rgb(156, 151, 151);
   margin-top: 70px;
 height: 350px;
 }
@@ -474,12 +474,7 @@ footer {
     text-align: center;
 
 }
-/* .footer-card {
-    display: flex;
-    gap: 2em;
-    margin-top: 20px;
-    background-color: black;
-} */
+
 footer nav ul {
     justify-content: center;
 }
