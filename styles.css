@@ -24,19 +24,20 @@ nav ul {
     align-items: center;
     padding: 0%;
     margin: 0;
+    color: rgba(19, 20, 20, 0.918);
+    font-weight: bolder;
+    gap: 4em;
     
 }
 
-.logo {
-    cursor: pointer;
-}
+
 nav ul li {
-    margin: 20px;
+    margin: 25px;
 }
 
 nav a {
     text-decoration: none;
-    color: #0f0202;
+    color: #0a0000;
     font-weight: bold;
 }
 #hamburger-menu {
@@ -44,7 +45,6 @@ nav a {
     cursor: pointer;
 }
 .card1 {
-    background-color: antiquewhite;
     border-radius: 0;
     padding: 3em;
     height: 400px; /* Adjust as needed */
@@ -233,7 +233,7 @@ nav a {
     margin-top: 1px;
     justify-content: left;
     padding: 2px;
-  width: 100px;
+    width: 100px;
     font-weight: bold;
     font-size: 30px;
 }
