@@ -52,7 +52,7 @@ nav a {
     width: 1200px;
     margin-top: 1.5%;
     margin-left: 1.5%;
-    background-image: url('assets/rooms.jpg'); /* path to your image */
+    background-image: url('assets/event\ picture.jpg'); /* path to your image */
   background-size: cover;  /* make sure it covers the whole card */
   background-position: center;
   text-align: center;
